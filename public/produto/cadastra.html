@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <title></title>
+</head>
+
+<body>
+    <a href="/">
+        <div class="well well-sm">
+            Voltar para a tela inicial
+        </div>
+    </a>
+    <h1>Cadastrar Produto</h1>
+
+    <div class="form form-group">
+        <input type="text" class="form-control nome" placeholder="Nome">
+        <input type="text" class="form-control preco" placeholder="Preço">
+        <button type="submit" class="envia btn btn-primary">Adicionar Produto</button>
+    </div>
+    <ul class="list-group listaProdutos"></ul>
+
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/cadastroProduto.js"></script>
+</body>
+
+</html>

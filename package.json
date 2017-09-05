@@ -1,0 +1,25 @@
+{
+  "name": "baas-start-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd public && http-server -c1",
+    "deploy": "firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanferreira/baas-start-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allanferreira/baas-start-app/issues"
+  },
+  "homepage": "https://github.com/allanferreira/baas-start-app#readme",
+  "devDependencies": {
+    "firebase-tools": "^3.10.0",
+    "http-server": "^0.10.0"
+  },
+  "keywords": []
+}
